@@ -1,0 +1,149 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.p{
+
+}
+
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.m3{
+    text-align: center;
+}
+.orange-color{
+    color: orange;
+}
+.flexable-container{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.flexable-container-middle{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width-1{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width-1 img{
+    width: 80%;
+    padding-left: 15%;
+}
+
+.half-width-2{
+    padding-left: 5%;
+}
+
+.half-width-3{
+    padding-left: 12%;
+    width: 60%;
+}
+
+.half-width-4{
+    width: 17%;
+    margin-left: 5px;
+}
+
+.half-width-4 img{
+    width: 140%;
+}
+
+
+.half-width img{
+    width: 70%;
+}
+
+.third-width img{
+    width: 33%;
+}
+
+.image-1{
+    background-color: lightseagreen;
+    border-radius: 10px; 
+}
+
+.image-2{
+    background-color: lightyellow;
+    margin-left: 30px;
+    border-radius: 10px; 
+}
+
+.image-3{
+    background-color: pink;
+    margin-left: 30px;
+    border-radius: 10px; 
+}
+
+.link-button{
+    text-decoration: none;
+   background-color: rgb(196, 80, 80);
+    padding: 10px 40px;
+    border-radius: 5px; 
+    color: white;
+    font-weight: 500;  
+}
+
+
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-left: 10px solid;
+}
+
+.experience-area{
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#web-dev-exp{
+    border-left: 7px;
+    border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1;
+    border-image-slice: 1;
+}
+
+#full-stack-exp{
+    border-left: 7px;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1; 
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+footer p{
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+
